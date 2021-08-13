@@ -1,0 +1,191 @@
+.ques1{
+    grid-area: ques1;
+    font-weight: 700;
+
+}
+.ques2{
+    grid-area: ques2;
+    margin-left: 10px;
+    font-weight: 700;
+
+
+}
+.ques3{
+    grid-area: ques3;
+    margin-left: 10px;
+    font-weight: 700;
+
+
+}
+
+.ans1{
+    grid-area: ans1;
+    font-size: 20px;
+}
+.ans2{
+    grid-area: ans2;
+    font-size: 20px;
+    margin-left: 10px;
+
+}
+.ans3{
+    grid-area: ans3;
+    margin-left: 10px;
+    font-size: 20px;
+}
+
+.ques1{
+    grid-area: ques1;
+    font-weight: 700;
+
+}
+.ques2{
+    grid-area: ques2;
+    margin-left: 10px;
+    font-weight: 700;
+
+
+}
+.ques3{
+    grid-area: ques3;
+    margin-left: 10px;
+    font-weight: 700;
+
+
+}
+
+.ans1{
+    grid-area: ans1;
+    font-size: 20px;
+}
+.ans2{
+    grid-area: ans2;
+    font-size: 20px;
+    margin-left: 10px;
+
+}
+.ans3{
+    grid-area: ans3;
+    margin-left: 10px;
+    font-size: 20px;
+}
+
+@media screen and (max-width: 991.5px) {
+	nav ul {
+		text-align: center !important;
+	}
+
+	nav .ymeen {
+        background: rgb(161,185,190); 
+		background: linear-gradient(180deg, rgba(161,185,190,1) 0%, rgba(183,192,152,1) 85%);
+        display: flex;
+		justify-content: center;
+		flex-direction: column;
+		width: 100%;
+	
+	}
+
+	nav .ymeen input {
+		max-width: 200px;
+	}
+}
+
+@media screen and (max-width: 700px){
+
+    .containerr {
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
+	}
+
+	.social,
+	.cont {
+		margin-bottom: 20px;
+	}
+
+	.social,
+	.about,
+	.cont {
+		width: 80%;
+		padding: 20px;
+	}
+
+    .search{
+        display: grid;
+        width: auto;
+        height: 200px;
+    }
+    
+    .ques{
+        text-align: center;
+        margin-top: 10px;
+        color: #3a4238
+        ;
+    }
+    
+    .par{
+        text-align: center;
+        font-size: 18px;
+        font-weight: 100;
+    }
+    
+    .inp{
+        border-radius: 15px;
+        width: auto;
+        text-align: center;
+        height: 40px;
+        margin:0 auto;  
+    }
+
+    .faq{
+        display: grid;
+        width:auto;
+        height:1000px;
+        grid-template-columns: 0.5fr 2fr;
+        grid-template-rows:1fr 1fr 1fr;
+        grid-template-areas: 
+        "ques1 ans1"
+        "ques2 ans2"
+        "ques3 ans3";
+
+    }
+    
+    .ques1{
+        grid-area: ques1;
+        margin-left: 10px;            
+        margin-top: 10px;
+    }
+    .ques2{
+        grid-area: ques2;
+        margin-left: 10px;
+        margin-top: 10px;
+    }
+    .ques3{
+        grid-area: ques3;
+        margin-left: 10px;            
+        margin-top: 10px;
+    }
+    
+    .ans1{
+        grid-area: ans1;
+        font-size: 18px;
+        margin-top: 10px;
+        margin-left: 10px;
+
+    }
+    .ans2{
+        grid-area: ans2;
+        font-size: 18px;
+        margin-top: 10px;
+        margin-left: 10px;
+
+
+    
+    }
+    .ans3{
+        grid-area: ans3;
+        font-size: 18px;
+        margin-top: 10px;            
+        margin-left: 10px;
+    }
+}
